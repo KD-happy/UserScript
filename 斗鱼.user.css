@@ -1,0 +1,452 @@
+@-moz-document domain("douyu.com") {
+    /*上边栏悬停*/
+    .js_head_show {
+        background: #383838 !important;
+        color: #FFF !important;
+    }
+    /*上边栏悬停*/
+    .js_head_show a:hover {
+        background-color: #111 !important;
+    }
+    .his_more a:hover {
+        background: #111;
+    }
+    #wrap {
+    background: #383838;
+    }
+    .HeaderGif-right, /* 右侧gif */
+    .HeaderGif-left, /* 左侧gif */
+    .public-DropMenu.Game { /* 上边栏游戏 */
+    	display: none;
+    }
+    /*下边内容背景色*/
+    .layout-Container {
+    	background: #383838;
+    }
+    /*大标题 全部分类*/
+    .layout-Module-title {
+    	color: #EEE;
+    }
+    /*刷新按钮*/
+    .ListRecommend-refresh,
+    /*编辑按钮*/
+    .edit,
+    /*分类选项 小*/
+    a.layout-Module-label {
+    	color: #ddd;
+		background: #111;
+		border: none;
+    }
+    .layout-Module-head,
+    /*滚动后显示的分类*/
+    .js-module-head {
+    	background: #383838 !important;
+    }
+    /*分类选项卡 大*/
+    .secondCateCard {
+    	background: #333;
+		color: #eee;
+    }
+    /*上边栏背景色*/
+    .Header-wrap.is-start,
+    header.layout-Section.layout-Header.is-scroll,
+    .Header-wrap { /* 上边栏主背景色 */
+    	background: #303030 !important;
+		border-bottom: none;
+    }
+    /*上边栏 历史 关注*/
+    a.public-DropMenu-link,
+    /*上边栏选项小箭头*/
+    .Header-icon,
+    /*上边栏选项*/
+    .Header-menu-link a {
+    	color: #eee !important;
+    }
+    body {
+    	background: #383838;
+    }
+    /*详细分类*/
+    .layout-Customization,
+    .DyListCover-content,
+    /*我的关注 内容*/
+    .DyLiveRecord-content,
+    .DyLiveCover-content {
+    	background: #333 !important;
+    }
+    /*详细分类*/
+    .GameRecommend-info,
+    .infoBox .title,
+    .rankInfo .userName,
+    .authorSpecial-item .authorName,
+    .videoList-item .des,
+    .yubaInfo-itemLeft .title,
+    .layout-Customization,
+    .DyListCover-content,
+    /*全部关注 最新访问*/
+    .ListHeader-extra-cell,
+    a.FilterTabsV2-container,
+    /*我的关注 标题信息*/
+    .DyLiveRecord-info *,
+    .DyLiveCover-info *,
+    /*推荐 大直播信息*/
+    .layout-Module-info,
+    .DyListCover-intro {
+    	color: #eee !important;
+    }
+    /*关注页 推荐关注*/
+    .AthenaBoothPanel-wrapper * {
+    	background: #333;
+		color: #EEE;
+    }
+    /* 分类悬停 */
+    h3.DropMenuList-name { /* 分类标题 */
+        color: #DDD;
+    }
+    a.Category-item { /* 分类选项按钮 */
+        background: #444;
+    }
+    .DropMenuList-ad { /* 悬停分类 广告？ */
+        display: none;
+    }
+    .public-DropMenu-drop { /* 视频悬停 悬停弹窗背景色全部 */
+		border-color: #232323;
+    	background: #232323;
+	}
+	.VideoDropDown .omnibusTitle, /* 左侧图片下标题 */
+	.videoTitle, /* 右侧视频标题 */
+	.contentTitle { /* 主要大标题 */
+	    color: #DDD;
+	}
+	.omnibusItemCard { /* 人气视频悬停 */
+	    background: #444;
+	    color: #DDD;
+	}
+	.omnibusItemCard-num-text { /* 人气视频悬停 视频数字统计 */
+	    color: #DDD;
+	}
+    .DropPaneList.HistoryList .DropPaneList-title, /*悬停历史 主播名字*/
+	.DropPaneList span.DropPaneList-title { /* 悬停关注 主播名字 */
+	    color: #DDD;
+	}
+	.YubaMessage-link:hover, /* 消息悬停 */
+	.DropPaneList>a:hover { /* 悬停关注 悬停主播 */
+	    background: #111;
+	}
+	.YubaMessage-link { /* 消息列表字体颜色 */
+	    color: #DDD;
+	}
+    .Header-download-wrap { /*客户端下载图标*/
+    	display: none;
+    }
+
+    /*! ==== 关注页 ==== */
+    .GroupEditPop-wrapper { /* 关注页 取消关注 特别关注 */
+        background: #333;
+        border-color: #333;
+    }
+    .GroupEditPop-wrapper>span:hover { /* 关注页 取消关注 特别关注 */
+        background: #111;
+    }
+    .SortPop-cates-wrapper, /* 最新访问 */
+    .AllFollowPop-cates, /* 全部关注 */
+    .AllFollowPop-cates-wrapper {
+        background: #232323;
+        color: #DDD;
+    }
+    .AllFollowPop-cates-followContainer-item:not(.is-active), /* 关注小选项 */
+    .AllFollowPop-cates-followTitleItem, /* 关注 */
+    .AllFollowPop-cates-itemcontainer-item, /* 分区小选项 */
+    .AllFollowPop-cates-catesTitle { /* 分区 */
+        color: #DDD;
+    }
+    
+    /*! ==== 搜索页 ==== */
+    .layout-Result, /* 共找到相关结 */
+    .SearchAnchorVideo-title, /* 主播 标题 */
+    .layout-Tab-list a { /* 搜索页 切换选项 */
+        color: #DDD;
+    }
+    section.layout-Tab-container.is-fixed { /* 搜索页 切换选项 下拉 */
+        background: #383838;
+    }
+    a.Search-anchor, /* 主播选项 */
+    .layout-Card-history, .layout-Card-rank,
+    .SearchPost, /* 鱼吧 大图标 */
+    a.layout-Cover-item.SearchYuba-wrap, /* 鱼吧 */
+    a.layout-Cover-item.SearchTopic-wrap, /* 相关话题 */
+    .DyCover-content { /* 相关视频 */
+        background: #333333;
+    }
+    .Search-rank-wrapper a, /* 热搜榜单 */
+    .SearchPost-nick, /* 鱼吧大标题 右侧 */
+    .SearchPost-title span, /* 鱼吧大标题 */
+    .SearchTopic-title, /* 相关话题 标题 */
+    .Search-anchor-info span:not(.Search-keyword), /* 用户名 */
+    .DyCover-intro span:not(.Search-keyword) { /* 相关视频 */
+        color: #DDD;
+    }
+
+    /*! ==== 直播页 ==== */
+    .Header .HeaderNav { /* 上边栏 - 活动 */
+        display: none;
+    }
+    .ActiviesExpandPanel, /*任务栏更多上面显示*/
+    div#js-player-toolbar, /*下边栏*/
+    div#js-player-title { /*上边栏*/
+    	background: #232323;
+		border-color: #232323;
+    }
+    .Title-header { /*标题*/
+    	color: #FFF;
+    }
+    a.Title-categoryItem { /*标题右侧的分类*/
+    	color: #BBB;
+    }
+    .Title-anchorName { /*主播名*/
+		color: #DDD;
+    }
+    span.PlayerToolbar-wealthNum, /*鱼丸 鱼翅数量*/
+    .Title-followNum, /*关注数*/
+    .Title-anchorText { /*火度*/
+    	color: #EEE;
+    }
+    span.Title-row-text, /*举报分享 字样*/
+    span.Title-row-icon { /*举报分享 图标*/
+    	color: #DDD;
+    }
+    .GuessGameMiniPanelB-wrapper, /* 视频下方的预测 */
+    .PlayerToolbar-signCont { /*左下角的通告*/
+    	display: none;
+    }
+    .ActivityTips { /*左下角任务 悬停出现的提示*/
+        background: #232323 !important;
+        color: #DDD !important;
+        border-color: #232323 !important;
+    }
+    .ActivityItem[data-flag=webGamePromote], /*左下角任务 网络游戏*/
+    .AnchorInterToolsUser.skin0 { /*主播一起玩 视频下面弹窗*/
+    	display: none;
+    }
+    .GiftInfoPanel-cont, /* 礼物 边框 */
+    .GiftInfoPanel-footer, /*送礼物选项栏 活动*/
+    .GiftInfoPanel-brief { /*礼物 活动*/
+    	background: #232323;
+		color: #DDD;
+		border-color: #232323;
+    }
+    #bc3,
+    #bc4 { /* 直播下层背景色 活动 */
+        background: #383838;
+        background-image: none !important;
+    }
+    strong.GiftInfoPanel-name { /*礼物悬停 大标题*/
+    	color: #DDD;
+    }
+    .GiftExpandPanel { /* 更多礼物 */
+        background: #232323;
+        border-color: #232323;
+    }
+    strong.GiftExpandPanel-descName { /* 普通礼物名称 */
+		color: #DDD;
+    }
+    .LoveGiftEdit { /* 告白礼物 */
+    	background: #232323;
+    }
+    p.LoveGiftEdit-nick span { /* 告白礼物的字体 */
+        color: #DDD;
+    }
+    .RightsPropsList, /*权益物品 其他背景色*/
+    .Backpack-propPanel, /*道具 其他背景色*/
+    .Backpack.JS_Backpack { /*背包*/
+		border-color: #232323;
+    	background: #232323;
+    }
+    .BackpackHeader-tabItem, /*道具 权益物品*/
+    span.Backpack-space { /*背包剩余*/
+    	color: #DDD;
+    }
+    .GuessGameBox { /*预言框*/
+        background: #232323;
+        border-color: #232323;
+	}
+    .boxLeft { /*预言标题*/
+    	color: #DDD !important;
+    }
+    div#js-player-asideMain { /*右侧弹幕主背景色*/
+    	background: #232323;
+		border-color: #232323;
+    }
+    .layout-Player-announce, /*主播投稿 直播回放*/
+    .layout-Player-rank { /*贵宾 活跃度*/
+        display: none;
+    }
+    #js-player-barrage { /*聊天框上提*/
+        top: -1px;
+		background: #232323;
+    }
+    .js-noblefloating-barragecont.Barrage-notice--noble { /*高级弹幕背景色*/
+    	background: #232323 !important;
+    	border: none;
+	}
+    .Barrage-notice, /* 系统提醒 禁言 */
+    .Barrage-content { /*弹幕颜色*/
+    	color: #DDD !important;
+    }
+    .DiamondsFansBarrage, /* 续费通知 */
+    .Barrage-roomVip--super, /* 直播间超级管理？？ */
+    .PeacehandBarrage { /* xxx开通了 取看看吧 */
+        background: #232323 !important;
+        border-color: #232323 !important;
+        color: #DDD;
+    }
+    .FishShopTip, /* 什么正在购买 */
+    span.Barrage-roomVipIcon, /* 和上面一样的 直播间超级管理？？ */
+    .TVGameEntry-wrapper.react-draggable, /* 视频左上方 （其他主机游戏） */
+    .Barrage-topFloater, /* 聊天框上方置顶的聊天 */
+    .ChatAchievement, /*心动 图标*/
+    .Barrage-icon, /*子爵 图标*/
+    span.Motor, /*鼓 图标*/
+    .FansMedalBox { /*粉丝盒子*/
+    	display: none;
+    }
+    .FansMedalDialog-normal { /*自己粉丝牌子悬停*/
+        background: #232323;
+    	color: #DDD;
+    }
+    .AssembleExpressHeader { /*表情全部*/
+    	background: #333;
+		border-color: #333;                                            
+    }
+    .AssembleExpressHeader-head { /*表情标题*/
+    	background: #232323;
+        color: #DDD;
+        border-color: #232323;
+	}
+    .Emotion-container { /*表情格子*/
+    	background: #333;
+	}
+    div#js-EmotionDiamondsPanel div { /*专属表情*/
+    	background: #333;
+    	color: #DDD;
+	}
+    .ChatFansBarragePop { /*粉丝弹幕*/
+    	background: #333;
+	}
+    .FilterKeywords { /*弹幕过滤*/
+    	background: #333;
+    }
+    .FKNokeywords-title, /*没有被过滤的关键词*/
+    .FilterSwitchStatus-status, /*弹幕过滤 开关*/
+    .FilterSwitchStatus h3{ /*弹幕过滤 标题*/
+    	color: #DDD;
+    }
+    .tab.active { /*弹幕过滤 全站/本房间*/
+    	color: orange !important;
+	}
+    .BarrageWordPanel-header { /*弹幕口令 标题*/
+    	background: #232323;
+    }
+    .BarrageWordPanel-header h2 { /*弹幕口令 标题*/
+    	color: #DDD;
+    }
+    .BarrageWordPanel-card { /*弹幕口令 内容背景色*/
+    	background: #555;
+	}
+    ul.BarrageWordPanel-example { /*弹幕口令 弹幕样式*/
+    	color: #DDD;
+	}
+    h3.BarrageWordPanel-feedbackHeader, /*弹幕口令 搜索口令*/
+    h3.BarrageWordPanel-strategyHeader { /*弹幕口令 弹幕口令反馈*/
+    	color: #EEE;
+	}
+    .shark-webp .js-user-level { /*用户等级*/
+        background-image: url(https://raw.iqiq.io/KD-happy/CDN/master/img/doyu_user_level.png) !important;
+    }
+    .PublicAnnounce-panel, /* 公告悬停 背景色 */
+    .YubaGroup-groupTitle, /* 小组动态 */
+    .YubaGroup-pane { /* 鱼吧悬停 背景色 */
+        background: #333;
+    }
+    .YubaGroupItem-title, /* 动态标题 */
+    .YubaGroupItem-nickname, /* 动态用户名 */
+    .YubaGroup-groupTitle span { /* 小组动态 */
+        color: #DDD;
+    }
+    .YubaGroupItem:hover { /* 动态悬停 */
+        background: #111;
+    }
+    .CustomGroupMenu-wrapper, /* 关注悬停 */
+    .TitleShare-shareConBox { /* 分享悬停显示背景色 */
+        background: #232323;
+        color: #DDD;
+    }
+    .TitleShare-wxQcode p { /* 微信扫码分享 */
+        color: #DDD;
+    }
+    .PhoneWatch-conBox { /* 福利签到悬停显示背景色 */
+        background: #232323;
+    }
+    .PhoneWatch-info, /* 下面的客户端 */
+    .PhoneWatch-title { /* 福利签到 标题 */
+        color: #DDD;
+    }
+    #js-bottom, /* 下面的鱼吧 */
+    .wonderful-85a057, /* 视频下 录屏 */
+    #js-room-activity, /* 房间活动 */
+    #js-aside { /* 左侧分类 */
+        display: none;
+    }
+    div.ToolbarActivityArea > div:nth-child(2) { /* 中间的乱七八招的任务 */
+        display: none !important;
+    }
+    #root > div {
+        height: 792px !important;
+    }
+
+    /*! ==== 我的悬停 ==== */
+	.Promotion.is-promotion, /* 什么贵族广告 */
+	.CloudGameLink { /* 云游戏链接 */
+	    display: none;
+	}
+	.Shortcut-listItem p, /* 下面显示的 */
+	span.HeaderTask-taskName, /* 我的任务 任务标题 */
+	.HeaderTask-title, /* 我的任务 标题 */
+	.Wallet-content-mywallet-wealth span, /* 钱包中心 数量显示 */
+	.Wallet-content-mywallet-title, /* 钱包中心 标题 */
+	.User-nickname>a, /* 用户名 */
+	.Exit-btn { /* 退登按钮 */
+	    color: #DDD;
+	}
+
+    /*! ==== 个人中心（不搞了） ==== */
+    .u_nav li a, /* 左侧选项 */
+    h1.fl { /* 个人中心标题 */
+        color: #DDD;
+    }
+    a.privilege-content-btn,
+    div#js_info_div, /* 选项内容背景色 */
+    .live_wrap.clearfix { /* 背景色 */
+        background: #232323;
+    }
+    div#js_tab_ul, /* 内容标题 */
+    .u_mainbody { /* 内容和选项之间的背景色 */
+        background: #333;
+    }
+    .privilege-head h2, /* 贵族专属 */
+    p.userinfo_set.fl, /* 个人信息 */
+    p.userdata_set.fl, /* 账号设置 */
+    p.info_tips, /* 信息提示 */
+    p.user_infoshow, /* 信息标题 */
+    #js_tab_ul p.f1 {
+        color: #DDD !important;
+    }
+    a.user_check_link.updateMobile.fl { /* 修改信息按钮 */
+        color: #DDD;
+    }
+    div#header { /* 上边栏 */
+        background: #232323;
+    }
+    ul.js_head_menu li a { /* 上边栏选项 */
+        color: #DDD !important;
+    }
+}
