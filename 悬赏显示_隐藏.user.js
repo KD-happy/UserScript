@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         吾爱破解 悬赏显示/隐藏
+// @name         悬赏显示/隐藏
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
+// @version      0.2
+// @description  有些论坛的列表充满了悬赏帖子，非常不爽！先支持吾爱破解，油猴中文网！其实可以修改match来试试别的网站
 // @author       KD-happy
 // @match        https://www.52pojie.cn/forum.php?*
+// @match        https://bbs.tampermonkey.net.cn/forum.php?*
 // @icon         http://52pojie.cn/favicon.ico
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -19,7 +20,7 @@
             default: true,
             _true: '✅ 当前隐藏',
             _false: '❌ 当前显示',
-            reload: false,
+            reload: true,
             fun: function() {
                 if (document.querySelector(".bm_c")) {
                     document.querySelectorAll(".bm_c table tbody").forEach((f) => {
