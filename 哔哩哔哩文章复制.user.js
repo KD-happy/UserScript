@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  去除哔哩哔哩文章的来源复制
 // @author       KD-happy
-// @match        https://www.bilibili.com/read/cv17624289
+// @match        https://www.bilibili.com/read/*
 // @icon         http://bilibili.com/favicon.ico
 // @grant        none
 // @run-at       document-start
