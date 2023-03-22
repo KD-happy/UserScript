@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         去除多次历史记录&倍速快捷键
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  去除哔哩哔哩讨厌的浏览器中历史记录多个的问题、可以使用>，<和/调整视频倍速、倍速记忆
 // @author       KD-happy
 // @match        https://www.bilibili.com/video/*
@@ -125,7 +125,7 @@ function ValueChange() {
 
 function MouseWheel() {
     var clear = setInterval(function() {
-        var playbackrate = document.querySelector(".bpx-player-ctrl-playbackrate")
+        var playbackrate = document.querySelector(".bpx-player-ctrl-playbackrate") != null ? document.querySelector(".bpx-player-ctrl-playbackrate") : document.querySelector(".squirtle-video-speed")
         if (playbackrate) {
             clearInterval(clear)
             var pd = true
