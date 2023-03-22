@@ -359,11 +359,17 @@ function BL() {
         let iframe = document.querySelector("#player-ctnr iframe")
         iframe && iframe.src.includes("live.bilibili.com") && (location.href = iframe.src)
     }, 3000)
-    var delList = ["#sections-vm", "#link-footer-vm", ".right-action-ctnr.live-skin-normal-a-text.pointer.dp-i-block.btn"];
+    var delList = ["#sections-vm", "#link-footer-vm", ".right-action-ctnr.live-skin-normal-a-text.pointer.dp-i-block.btn", "#gift-control-vm", "#my-dear-haruna-vm", "#full-screen-interactive-wrap"];
     for(var i=0; i<delList.length; i++) {
         Del(delList[i]);
     }
     document.querySelector('[role="img.webp"]') && document.querySelector('[role="img.webp"]').removeAttribute('style');
+}
+function BLStyle() {
+    var Style = `#full-screen-interactive-wrap{display:none!important}`;
+    let style = document.createElement("style");
+    style.appendChild(document.createTextNode(Style));
+    document.body.appendChild(style);
 }
 function Next() {
     document.onkeydown = function() {
@@ -419,7 +425,7 @@ function BLkjj() {
     $(document).ready(function() {
         if(/^https?:\/\/.*\.huya\.com\/.*/.test(window.location.href)) {HY(); HYStyle(); HYkjj();};
         if(/^https?:\/\/.*\.douyu\.com\/.*/.test(window.location.href)) {DY(); DYkjj();};
-        if(/^https?:\/\/live\.bilibili\.com\/.*/.test(window.location.href)) {BL(); BLkjj();};
+        if(/^https?:\/\/live\.bilibili\.com\/.*/.test(window.location.href)) {BL(); BLkjj(); BLStyle();};
         if(/^https?:\/\/www\.bilibili\.com\/.*/.test(window.location.href)) {Next()};
     });
 })();
