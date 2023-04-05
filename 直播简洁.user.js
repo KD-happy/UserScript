@@ -236,7 +236,7 @@ function DY() {
         }
     }
     setTimeout(function() {
-        var qxd = document.querySelector('.tip-e3420a > ul > li');
+        var qxd = document.querySelector('.tip-e3420a ul > li');
         if (qxd) {
             if(qxd.getAttribute('class') == 'selected-3a8039') {return;}
             qxd.click();
