@@ -449,4 +449,18 @@
     ul.js_head_menu li a { /* 上边栏选项 */
         color: #DDD !important;
     }
+    /* 2023年5月4日 一些广告图标 */
+    [class$=-ad], /* 大部分广告图标 */
+    .ScreenBannerAd, /* 视频左下角的广告 */
+    .Barrage-notice, /* 右边弹幕的提醒 */
+    .Header-broadcast-wrap, /* 左上角的开播 */
+    .TitleShare, /* 分享 */
+    .ClientJump, /* 客户端 */
+    .PhoneWatch, /* 福利 */
+    .ToolbarGiftArea, /* 礼物栏 */
+    .PlayerToolbar-couponInfo, /* 福利券 */
+    .PlayerToolbar-getYCArea /* 充值按钮 */
+    { 
+        display: none;
+    }
 }
